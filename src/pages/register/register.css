@@ -98,3 +98,17 @@
   bottom: -70px;
   z-index: 2;
 }
+
+.register-rectangle-Image {
+  width: 450px;
+  position: absolute;
+  top: -170px;
+  left: -150px;
+}
+.register-rectangle-Image-2 {
+  width: 450px;
+  position: absolute;
+  bottom: -270px;
+  right: -200px;
+  transform: rotate(180deg);
+}

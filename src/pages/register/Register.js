@@ -1,6 +1,5 @@
 import React from "react";
 import "./register.css";
-import { Rectangle } from "../../components/draw/Draw";
 import Logo from "../../assets/logo.png";
 import Player from "../../assets/je_veux_une_imag.png";
 import Input from "../../components/input/Input";
@@ -8,6 +7,8 @@ import Button from "../../components/button/Button";
 import BasketBall from "../../assets/ballon_de_basket.png";
 import { useNavigate } from "react-router-dom";
 import ROUTES from "../../routes/RouteConstants";
+import RectangleImage from "../../assets/Rectangle-2.png";
+import EyeIcon from "../../assets/eyeIcon.png";
 
 const Register = () => {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ const Register = () => {
     <div className="register_container">
       <div className="register_leftSide">
         <div style={{ position: "relative" }}>
-          <Rectangle top={"-50px"} left={"-50px"} transform={"rotate(45deg)"} />
+          <img src={RectangleImage} className="register-rectangle-Image" />
           <img src={Logo} className="logo" />
           <img src={Player} className="player" />
         </div>
@@ -29,8 +30,12 @@ const Register = () => {
           <div className="textField">
             <Input placeholder="Name" type="text" />
             <Input placeholder="Email address" type="text" />
-            <Input placeholder="Password" type="password" />
-            <Input placeholder="Confirm password" type="password" />
+            <Input placeholder="Password" type="password" suffix={EyeIcon} />
+            <Input
+              placeholder="Confirm password"
+              type="password"
+              suffix={EyeIcon}
+            />
             <Input placeholder="Company Name" type="text" />
           </div>
           <div className="register_submitBtn">
@@ -41,12 +46,7 @@ const Register = () => {
             </p>
           </div>
           <div style={{ position: "relative", width: "100%" }}>
-            <Rectangle
-              bottom={"-150px"}
-              right={"-100px"}
-              transform={"rotate(45deg)"}
-              zIndex={"1"}
-            />
+            <img src={RectangleImage} className="register-rectangle-Image-2" />
             <img src={BasketBall} className="register_basketBall" />
           </div>
         </div>

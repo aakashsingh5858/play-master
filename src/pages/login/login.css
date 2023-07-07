@@ -14,6 +14,19 @@
   width: 100%;
   background-color: #ffffff;
 }
+.rectangle-Image {
+  width: 450px;
+  position: absolute;
+  top: -170px;
+  left: -150px;
+}
+.rectangle-Image-2{
+  width: 450px;
+  position: absolute;
+  bottom: -330px;
+  right: -200px;
+  transform: rotate(180deg);
+}
 .logo {
   width: 90%;
   position: absolute;

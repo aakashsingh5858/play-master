@@ -1,6 +1,5 @@
 import React from "react";
 import "./login.css";
-import { Rectangle } from "../../components/draw/Draw";
 import Logo from "../../assets/logo.png";
 import Player from "../../assets/je_veux_une_imag.png";
 import Input from "../../components/input/Input";
@@ -8,6 +7,7 @@ import Button from "../../components/button/Button";
 import BasketBall from "../../assets/ballon_de_basket.png";
 import { useNavigate } from "react-router-dom";
 import ROUTES from "../../routes/RouteConstants";
+import RectangleImage from "../../assets/Rectangle-2.png";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -15,7 +15,7 @@ const Login = () => {
     <div className="login_container">
       <div className="login_leftSide">
         <div style={{ position: "relative" }}>
-          <Rectangle top={"-50px"} left={"-50px"} transform={"rotate(45deg)"} />
+          <img src={RectangleImage} className="rectangle-Image" />
           <img src={Logo} className="logo" />
           <img src={Player} className="player" />
         </div>
@@ -44,12 +44,7 @@ const Login = () => {
             </p>
           </div>
           <div style={{ position: "relative", width: "100%" }}>
-            <Rectangle
-              bottom={"-210px"}
-              right={"-100px"}
-              transform={"rotate(45deg)"}
-              zIndex={"1"}
-            />
+            <img src={RectangleImage} className="rectangle-Image-2" />
             <img src={BasketBall} className="basketBall" />
           </div>
         </div>

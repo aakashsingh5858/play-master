@@ -1,6 +1,6 @@
 import React from "react";
 import "./restPassword.css";
-import { Rectangle } from "../../components/draw/Draw";
+// import { Rectangle } from "../../components/draw/Draw";
 import Logo from "../../assets/logo.png";
 import Player from "../../assets/je_veux_une_imag.png";
 import Input from "../../components/input/Input";
@@ -8,6 +8,7 @@ import Button from "../../components/button/Button";
 import BasketBall from "../../assets/ballon_de_basket.png";
 import { useNavigate } from "react-router-dom";
 import ROUTES from "../../routes/RouteConstants";
+import RectangleImage from "../../assets/Rectangle-2.png";
 
 const RestPassword = () => {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ const RestPassword = () => {
     <div className="rest-password_container">
       <div className="rest-password_leftSide">
         <div style={{ position: "relative" }}>
-          <Rectangle top={"-50px"} left={"-50px"} transform={"rotate(45deg)"} />
+          <img src={RectangleImage} className="rest-pss-rectangle-Image" />
           <img src={Logo} className="logo" />
           <img src={Player} className="player" />
         </div>
@@ -43,12 +44,7 @@ const RestPassword = () => {
             </p>
           </div>
           <div style={{ position: "relative", width: "100%" }}>
-            <Rectangle
-              bottom={"-225px"}
-              right={"-100px"}
-              transform={"rotate(45deg)"}
-              zIndex={"1"}
-            />
+            <img src={RectangleImage} className="rest-pass-rectangle-Image-2" />
             <img src={BasketBall} className="rest_pass_basketBall" />
           </div>
         </div>
