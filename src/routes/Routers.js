@@ -7,6 +7,9 @@ const Register = lazy(() => import("../pages/register/Register"));
 const RestPassword = lazy(() =>
   import("../pages/restPassword/RestPassword.js")
 );
+const AccountSetting = lazy(() =>
+  import("../pages/accountSetting/AccountSetting")
+);
 
 const Routers = () => {
   return (
@@ -15,6 +18,11 @@ const Routers = () => {
         <Route exact path={ROUTES.LOGIN} element={<Login />} />
         <Route exact path={ROUTES.REGISTER} element={<Register />} />
         <Route exact path={ROUTES.REST_PASSWORD} element={<RestPassword />} />
+        <Route
+          exact
+          path={ROUTES.ACCOUNT_SETTING}
+          element={<AccountSetting />}
+        />
       </Routes>
     </Suspense>
   );

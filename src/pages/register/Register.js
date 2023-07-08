@@ -28,18 +28,32 @@ const Register = () => {
             <h5>Welcome to the field !</h5>
           </div>
           <div className="textField">
-            <Input placeholder="Name" type="text" />
-            <Input placeholder="Email address" type="text" />
-            <Input placeholder="Password" type="password" suffix={EyeIcon} />
+            <Input placeholder="Name" type="text" className="loginField" />
+            <Input
+              placeholder="Email address"
+              type="text"
+              className="loginField"
+            />
+            <Input
+              placeholder="Password"
+              type="password"
+              suffix={EyeIcon}
+              className="loginField"
+            />
             <Input
               placeholder="Confirm password"
               type="password"
               suffix={EyeIcon}
+              className="loginField"
             />
-            <Input placeholder="Company Name" type="text" />
+            <Input
+              placeholder="Company Name"
+              type="text"
+              className="loginField"
+            />
           </div>
           <div className="register_submitBtn">
-            <Button value={"Register"} className="register_button" />
+            <Button value={"Register"} className="login_button" />
             <p className="signupBtn">
               Not have a account?{" "}
               <span onClick={() => navigate(ROUTES.LOGIN)}>Login</span>

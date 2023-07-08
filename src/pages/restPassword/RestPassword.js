@@ -28,13 +28,14 @@ const RestPassword = () => {
             <h5>Welcome back</h5>
           </div>
           <div className="textField">
-            <Input placeholder="Email address" type="text" />
+            <Input
+              placeholder="Email address"
+              type="text"
+              className="loginField"
+            />
           </div>
           <div className="rest-password_submitBtn">
-            <Button
-              value={"return to the field"}
-              className="rest-password_button"
-            />
+            <Button value={"return to the field"} className="login_button" />
             <p className="signupBtn">
               Not have a account?{" "}
               <span onClick={() => navigate(ROUTES.REGISTER)}>Create here</span>

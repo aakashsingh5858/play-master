@@ -1,0 +1,44 @@
+.login_button {
+  font-size: 1rem;
+  padding: 10px 12px;
+  min-width: 6rem;
+  width: 24rem;
+  border-radius: 21px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #00b8a9;
+  border: 0;
+  outline: none;
+  font-style: italic;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.button {
+  font-size: 1rem;
+  padding: 8px 12px;
+  color: #fff;
+  background-color: #00b8a9;
+  border: 0;
+  outline: none;
+  font-style: italic;
+  cursor: pointer;
+  letter-spacing: 1px;
+  min-width: 6rem;
+}
+
+.button_large {
+  width: 100%;
+  min-width: 6rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.button_outline {
+  width: 100%;
+  color: #00b8a9;
+  font-size: 1.5rem;
+  border: 1px solid #00b8a9;
+  background-color: #fff;
+  text-align: left;
+}

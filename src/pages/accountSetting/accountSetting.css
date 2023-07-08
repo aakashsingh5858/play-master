@@ -1,0 +1,82 @@
+.account_setting_container {
+  padding: 0rem 4rem;
+  padding-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+  height: calc(100vh - 5.5rem);
+}
+.account_setting_label {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #f6416c;
+  padding-bottom: 14px;
+}
+.account_setting_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.account_setting_btnWrap {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.account_setting_inputWrap {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.account_setting_particularInput {
+  display: flex;
+  align-items: center;
+}
+.particularInput_label {
+  flex: 0 0 200px;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #00b8a9;
+}
+.bg_imageWrap {
+  position: relative;
+  width: 100%;
+}
+.bg_image_1 {
+  width: 350px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 2;
+  opacity: 0.8;
+}
+.bg_image_2 {
+  width: 350px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  z-index: 2;
+  opacity: 0.8;
+}
+.bg_image_3 {
+  width: 500px;
+  position: absolute;
+  top: -410px;
+  right: 150px;
+  z-index: -1;
+  opacity: 0.8;
+}
+.bg_image_4 {
+  width: 350px;
+  position: absolute;
+  top: -380px;
+  left: 20px;
+  z-index: -1;
+  opacity: 0.8;
+}

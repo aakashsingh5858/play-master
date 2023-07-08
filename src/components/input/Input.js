@@ -1,7 +1,7 @@
 import React from "react";
 import "./input.css";
 
-const Input = ({ placeholder, type, suffix, className }) => {
+const Input = ({ placeholder, type = "text", suffix, className }) => {
   return (
     <div className="input_Container">
       <input type={type} placeholder={placeholder} className={className} />

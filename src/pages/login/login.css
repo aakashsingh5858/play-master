@@ -20,7 +20,7 @@
   top: -170px;
   left: -150px;
 }
-.rectangle-Image-2{
+.rectangle-Image-2 {
   width: 450px;
   position: absolute;
   bottom: -330px;
@@ -77,23 +77,6 @@
   gap: 24px;
   text-align: center;
 }
-
-.login_button {
-  font-size: 1rem;
-  padding: 10px 12px;
-  min-width: 6rem;
-  width: 24rem;
-  border-radius: 21px;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #fff;
-  background-color: #00b8a9;
-  border: 0;
-  outline: none;
-  font-style: italic;
-  cursor: pointer;
-  letter-spacing: 1px;
-}
 .signupBtn {
   font-size: 0.8rem;
   color: #7b8988;
@@ -120,4 +103,7 @@
   right: 0;
   bottom: -129px;
   z-index: 2;
+}
+.loginField {
+  border: 1px solid #f8f3d4 !important;
 }

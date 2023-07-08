@@ -27,8 +27,12 @@ const Login = () => {
             <h5>Welcome back</h5>
           </div>
           <div className="textField">
-            <Input placeholder="Email address" type="text" />
-            <Input placeholder="Password" type="password" />
+            <Input
+              placeholder="Email address"
+              type="text"
+              className="loginField"
+            />
+            <Input placeholder="Password" type="password"  className="loginField"/>
           </div>
           <div className="login_submitBtn">
             <Button value={"return to the field"} className="login_button" />
