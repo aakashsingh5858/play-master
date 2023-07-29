@@ -1,6 +1,6 @@
 import React from "react";
 import "./register.css";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.svg";
 import Player from "../../assets/je_veux_une_imag.png";
 import Input from "../../components/input/Input";
 import Button from "../../components/button/Button";

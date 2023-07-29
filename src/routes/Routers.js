@@ -10,6 +10,7 @@ const RestPassword = lazy(() =>
 const AccountSetting = lazy(() =>
   import("../pages/accountSetting/AccountSetting")
 );
+const DashBoard = lazy(() => import("../pages/match-dashBoard/DashBoard"));
 
 const Routers = () => {
   return (
@@ -23,6 +24,7 @@ const Routers = () => {
           path={ROUTES.ACCOUNT_SETTING}
           element={<AccountSetting />}
         />
+        <Route exact path={ROUTES.DASHBOARD} element={<DashBoard />} />
       </Routes>
     </Suspense>
   );

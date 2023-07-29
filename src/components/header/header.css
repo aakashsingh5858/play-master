@@ -6,11 +6,12 @@
   justify-content: space-between;
   /* margin-bottom: 4rem; */
   padding-right: 16px;
+  position: relative;
 }
 .headerLogo {
   position: absolute;
-  left: -60px;
-  top: -85px;
+  top: -69px;
+  left: -50px;
   width: 350px;
 }
 .haederMenu li {

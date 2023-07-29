@@ -1,15 +1,15 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.svg";
 import "./header.css";
 
 const Header = () => {
   return (
     <div className="headerContainer">
-      <div style={{ position: "relative" }}>
+      <div>
         <img src={Logo} className="headerLogo" />
       </div>
       <ul className="haederMenu">
-        <li>Home</li>
+        <li></li>
       </ul>
     </div>
   );
